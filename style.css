@@ -1,8 +1,7 @@
 div {
-    border: 3px solid;
-    width: 500px;
     float: left;
-}   
+}
+
 h1{
   background-color: yellow;
   height: 50px;
@@ -10,7 +9,7 @@ h1{
 
 .div1{
     height: 22px;
-    width: 25%;
+
     border-width: 3px;
     background-color: grey;
 }
