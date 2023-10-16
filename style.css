@@ -1,5 +1,5 @@
 body {
-    margin: 15;
+    margin: 15px; /* Añadí "px" a la propiedad margin */
     padding: 0;
 }
 
@@ -10,12 +10,11 @@ h1 {
     color: #fff;
     text-align: center;
     line-height: 10vh;
-    border-radius: 10px 10px; 
-    margin-bottom: 3%; 
+    border-radius: 10px; 
+    margin-bottom: 3%;
 }
 
 .container {
-    display: flex;
     height: 90vh;
 }
 
@@ -23,8 +22,9 @@ h1 {
     width: 25%;
     height: 100%;
     background-color: #d3a5ad;
-    border-radius: 10px 10px; 
-    margin-right: 3%; 
+    border-radius: 10px; 
+    margin-right: 3%;
+    float: left; /* Usando float en lugar de flexbox */
 }
 
 .sidebar-content {
@@ -37,27 +37,20 @@ h1 {
 }
 
 .content {
-    width: 75%;
+    width: 70%;
     height: 100%;
-    display: flex;
-    flex-direction: column;
-    border-radius: 10px 10px ; 
-}
-
-p{
-    margin: 5%;
-    font-size: 2.5vw;
-    color: white;
-    text-align: justify;
+    border-radius: 10px; 
+    float: left; 
+    margin-left: 2%; 
 }
 
 main {
-    flex: 1;
+    height: 84%;
     background-color: #b3f3b8;
-    border-radius: 10px 10px; 
+    border-radius: 10px; 
 }
 
-.main-content{
+.main-content {
     width: 96%;
     height: 5%;
     text-align: center;
@@ -72,6 +65,7 @@ footer {
     color: #fff;
     text-align: center;
     line-height: 10vh;
-    border-radius: 10px 10px; 
-    margin-top: 3%; 
+    border-radius: 10px; 
+    margin-top: 3%;
+    clear: both; 
 }
